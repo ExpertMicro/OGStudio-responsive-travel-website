@@ -1,0 +1,11 @@
+.l-advantages__section {
+  @include container;
+  background: $bg-color-section-advantages;
+}
+
+.advantages__title {
+  @include inter(24);
+  text-align: center;
+  padding-top: 155px;
+  padding-bottom: 60px;
+}

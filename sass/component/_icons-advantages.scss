@@ -1,0 +1,44 @@
+.c-advantages {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 130px;
+}
+
+.c-advantages-descount, .c-advantages-best-guide, .c-advantages-support, .c-advantages-management {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  max-width: 230px;
+}
+
+.icon-tag, .icon-guide, .icon-support, .icon-management {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+.icon-tag {
+  background: $bg-color-intro;
+}
+.icon-guide {
+  background: $bg-color-icon-guide;
+}
+.icon-support {
+  background: $bg-color-icon-support;
+}
+.icon-management {
+  background: $bg-color-icon-management;
+}
+
+.icon__title {
+  @include inter(16);
+  margin-top: 20px;
+}
+
+.icon__paragraph {
+  @include nunito(14, 1.4em);
+  margin-top: 10px;
+}

@@ -75,11 +75,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: red;
+  @include nunito(16, normal);
+  font-weight: $bold-700;
+  opacity: 1; /* Firefox */
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: red;
+  @include nunito(16, normal);
+  font-weight: $bold-700;
+  opacity: 1; /* Firefox */
 }
 
 sup,

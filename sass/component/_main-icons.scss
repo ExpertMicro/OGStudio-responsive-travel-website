@@ -14,17 +14,24 @@
   margin-right: 20px;
 }
 
-.icon-plane {
+.icon-plane, .icon-camera {
   width: 68px;
   height: 68px;
   border-radius: 50%;
-  background: #fad3d9;
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   place-items: center;
+}
+
+.icon-plane {
+  background: $bg-color-icon-plane;
+}
+
+.icon-camera {
+  background: $bg-color-icon-camera;
 }
 
 .main-icon__tilte {

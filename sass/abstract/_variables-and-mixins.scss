@@ -14,14 +14,14 @@ $color-title: #273043;
 $color-description: #454a54;
 
 //Background Colors
-$color-bg-header: #fff;
-$color-bg-footer: #fff;
-$color-bg-intro: #f5f5f6;
-$color-bg-section-ad: #ededf1;
-$color-bg-section-des: #f5f5f6;
-$color-bg-section-tes: #e2d9d0;
-$color-bg-section-sub: #fff;
-$background-content: #c0d0f1;
+$bg-color-header: #fff;
+$bg-color-footer: #fff;
+$bg-color-intro: #f5f5f6;
+$bg-color-section-advantages: #ededf1;
+$bg-color-section-destination: #f5f5f6;
+$bg-color-section-testimonials: #e2d9d0;
+$bg-color-section-subscribe: #fff;
+$bg-content: #c0d0f1;
 
 //Button Colors
 $color-button-register: #273043;
@@ -33,11 +33,12 @@ $color-button-prev: #fff;
 $color-button-next: #273043;
 
 //Icon Background colors
-$color-icon-bg-01: #fad3d9;
-$color-icon-bg-02: #d9e2f6;
-$color-icon-bg-03: #e2d9d0;
-$color-icon-bg-04: #c0ddd4;
-$color-icon-bg-05: #fcd7cd;
+$bg-color-icon-tag: #fad3d9;
+$bg-color-icon-guide: #d9e2f6;
+$bg-color-icon-support: #e2d9d0;
+$bg-color-icon-management: #c0ddd4;
+$bg-color-icon-plane: #fad3d9;
+$bg-color-icon-camera: #fcd7cd;
 
 // Font Size
 $font-size: 16;
@@ -49,6 +50,19 @@ $medium-500: 500;
 $semi-bold-600: 600;
 $bold-700: 700;
 
+
+//Type of Containers
+@mixin container {
+  max-width: 1290px;
+  width: 90%;
+  margin: 0 auto;
+}
+@mixin container-flex {
+  max-width: 1290px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
 
 //Typography - Inter 64 / 48 / 36 / 16
 @mixin inter($size) {
