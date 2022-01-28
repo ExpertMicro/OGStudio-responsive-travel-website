@@ -1,0 +1,182 @@
+// ==========================================================================
+// General Colors
+// ==========================================================================
+$white: #fff;
+$dark-blue: #273043;
+$pink: #ff4b6d;
+$blue: #1f65f7;
+$green: #279876;
+$orange: #f3572b;
+$brown: #be8e57;
+
+//Text Colors
+$color-title: #273043;
+$color-description: #454a54;
+
+//Background Colors
+$color-bg-header: #fff;
+$color-bg-footer: #fff;
+$color-bg-intro: #f5f5f6;
+$color-bg-section-ad: #ededf1;
+$color-bg-section-des: #f5f5f6;
+$color-bg-section-tes: #e2d9d0;
+$color-bg-section-sub: #fff;
+$background-content: #c0d0f1;
+
+//Button Colors
+$color-button-register: #273043;
+$color-button-book-now: #f3572b;
+$color-button-read-more: #273043;
+$color-button-subscribe-now: #273043;
+$color-input-subscribe: #279876;
+$color-button-prev: #fff;
+$color-button-next: #273043;
+
+//Icon Background colors
+$color-icon-bg-01: #fad3d9;
+$color-icon-bg-02: #d9e2f6;
+$color-icon-bg-03: #e2d9d0;
+$color-icon-bg-04: #c0ddd4;
+$color-icon-bg-05: #fcd7cd;
+
+// Font Size
+$font-size: 16;
+
+//Font weight
+$light-300: 300;
+$regular-400: 400;
+$medium-500: 500;
+$semi-bold-600: 600;
+$bold-700: 700;
+
+
+//Typography - Inter 64 / 48 / 36 / 16
+@mixin inter($size) {
+  font-family: "Inter", sans-serif;
+  @if $size == 64 {
+    font-size: 4em;
+    font-weight: $bold-700;
+    color: $color-title;
+    line-height: 1.25em;
+  } @else if $size == 48 {
+    font-size: 3em;
+    font-weight: $bold-700;
+    color: $color-title;
+  } @else if $size == 36 {
+    font-size: 2.25em;
+    font-weight: $bold-700;
+    color: $color-title;
+  } @else if $size == 24 {
+    font-size: 1.5em;
+    font-weight: $bold-700;
+    color: $color-title;
+  } @else if $size == 16 {
+    font-size: 1em;
+    font-weight: $semi-bold-600;
+    color: $color-title;
+  }
+}
+
+//Typography - Nunito 14 / 16 - The good Line height varies from 1.35em 1.65em
+@mixin nunito($size, $lineHeight) {
+  font-family: "Nunito", sans-serif;
+  @if $size == 16 {
+    font-size: 1em;
+    color: $color-description;
+    font-weight: $regular-400;
+    line-height: $lineHeight;
+  }
+  @if $size == 14 {
+    font-size: 0.875em;
+    color: $color-description;
+    font-weight: $regular-400;
+    line-height: $lineHeight;
+  }
+}
+
+
+// webfatorial
+// ==========================================================================
+
+$webfatorial-colors: (
+  'webfatorial-primary'  : #157bad,
+  'webfatorial-secondary': #06618c,
+  'webfatorial-success'  : #3cc368,
+  'webfatorial-warning'  : #f5a600,
+  'webfatorial-error'    : #ec5840,
+  'webfatorial-gray-1'   : #363636,
+  'webfatorial-gray-2'   : #4f4f4f,
+  'webfatorial-gray-3'   : #828282,
+  'webfatorial-gray-4'   : #bdbdbd,
+  'webfatorial-gray-5'   : #e0e0e0,
+  'webfatorial-white'    : #fcfcfc,
+);
+
+
+// dpw
+// ==========================================================================
+
+$dpw-colors: (
+  'dpw-primary'   : #3da6c8,
+  'dpw-secondary' : darken(#3da6c8, 12%),
+);
+
+
+// Social Media
+// ==========================================================================
+
+$social-media-colors: (
+  'facebook'  : #3b5998,
+  'twitter'   : #00aced,
+  'linkedin'  : #0077b5,
+  'youtube'   : #cd201f,
+  'instagram' : #e4405f,
+  'github'    : #333,
+);
+
+
+
+// ==========================================================================
+// Measures
+// ==========================================================================
+
+$global-max-width-raw: 780;
+$global-max-width    : rem($global-max-width-raw);
+
+$global-font-size  : rem(18);
+$global-line-height: 1.5;
+$global-radius     : rem(6);
+$global-module-size: rem(30);
+
+// ==========================================================================
+// Transitions
+// ==========================================================================
+
+$transition-duration         : 305ms;
+$transition-duration-complex : 385ms;
+$transition-duration-entrance: 235ms;
+$transition-duration-exit    : 205ms;
+$transition-duration-fast    : 150ms;
+
+$transition-function-ease-in-expo     : cubic-bezier(.95, .05, .795, .035);
+$transition-function-ease-out-expo    : cubic-bezier(.19, 1, .22, 1);
+$transition-function-ease-in-back     : cubic-bezier(.6, -.28, .735, .045);
+$transition-function-ease-out-back    : cubic-bezier(.175, .885, .32, 1.275);
+$transition-function-ease-in-out-circ : cubic-bezier(.785, .135, .15, .86);
+$transition-function-ease-in-out-quint: cubic-bezier(.86, 0, .07, 1);
+$transition-function-elastic          : cubic-bezier(.175, .885, .41, 1.46);
+
+
+
+// ==========================================================================
+// Others
+// ==========================================================================
+
+$z-indexes: (
+  'above'   : 500,
+  'modal'   : 400,
+  'overlay' : 300,
+  'dropdown': 200,
+  'default' : 1,
+  'below'   : -1,
+);

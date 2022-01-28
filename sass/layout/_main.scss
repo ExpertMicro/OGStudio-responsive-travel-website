@@ -1,0 +1,22 @@
+.l-main {
+  position: relative;
+}
+
+.l-main-content {
+  display: flex;
+  background: $color-bg-intro;
+}
+
+.main__title {
+  @include inter(64);
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-right: 30px;
+}
+
+.main__paragraph {
+  @include nunito(16, normal);
+  padding-left: 80px;
+  margin-top: 20px;
+  margin-right: 20px;
+}

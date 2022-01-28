@@ -1,0 +1,22 @@
+.btn-register {
+  background: $color-button-register;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 23px;
+  padding-left: 23px;
+  border-radius: 4px;
+  color: $white;
+  cursor: pointer;
+}
+
+.btn-book-now {
+  @include nunito(16, normal);
+  background: $color-button-book-now;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 31px;
+  padding-right: 31px;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}

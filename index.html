@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>OGStudio - Travel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/sass/style.scss">
+  </head>
+
+  <body>
+    <header class="l-header">
+      <div class="l-container-flex">
+        <a class="logo" href="#">
+          <img src="/img/logo-travel.svg" alt="Logo OGStudio">
+        </a>
+        <nav class="header__nav">
+          <ul>
+            <li>
+              <a href="#">Special Deals</a>
+            </li>
+            <li>
+              <a href="#">Discover</a>
+            </li>
+            <li>
+              <a href="#">Community</a>
+            </li>
+            <li>
+              <a href="#">
+                <a href="#">About Us</a>
+              </a>
+            </li>
+            <li>
+              <a class="btn-register" href="">Register</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="l-main">
+      <div class="l-container">
+        <div class="l-main-content">
+          <div>
+            <h1 class="main__title">Make the trip of your dream.</h1>
+            <p class="main__paragraph">Best place to travel is with OGStudio, over 5.000 tours completed.</p>
+            <div class="c-main__icons">
+              <div class="c-main__icon__plane">
+                <div class="icon-plane">
+                  <img src="/img/plane.svg" alt="Plane">
+                </div>
+                <div>
+                  <h4 class="main-icon__tilte">International flights</h4>
+                  <p class="main-icon__paragraph">Lorem ipsum dolor sit amet</p>
+                </div>
+              </div>
+
+              <div class="c-main__icon__guidelines">
+                <div class="icon-plane">
+                  <img src="/img/camera.svg" alt="Camera">
+                </div>
+                <div>
+                  <h4 class="main-icon__tilte">Guidelines And Measures For Healthy Travel</h4>
+                  <p class="main-icon__paragraph">Lorem ipsum dolor sit amet</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-intro__img">
+            <picture>
+              <source srcset="img/woman-kayak-mobile-screen-02.jpg" media="(max-width: 599px)">
+              <source srcset="img/woman-kayak-tablet-screen.jpg" media="(max-width: 1240px)">
+              <img src="img/woman-kayak.jpg" alt="Woman Kayak">
+            </picture>
+          </div>
+        </div>
+
+        <div class="l-book-now">
+          <form class="form-book-now">
+            <div class="form-book__item__1">
+              <div class="book__item">
+                <div class="form-icon">
+                  <img src="/img/earth-svg.svg" alt="Icon Earth">
+                </div>
+                <div class="form-input">
+                  <label>Choose your ples</label>
+                  <input type="text" placeholder="Enjoy">
+                </div>
+              </div>
+            </div>
+            <div class="form-book__item__2">
+              <div class="book__item">
+                <div class="form-icon">
+                  <img src="/img/date-svg.svg" alt="Icon Date">
+                </div>
+                <div class="form-input">
+                  <label>Date</label>
+                  <input type="text" placeholder="MM/DD/YYY" onfocus="(this.type='date')">
+                </div>
+              </div>
+            </div>
+            <div class="form-book__item__3">
+              <div class="book__item">
+                <div class="form-icon">
+                  <img src="/img/phone-svg.svg" alt="Icon Phone">
+                </div>
+                <div class="form-input">
+                  <label>Phone</label>
+                  <input type="text" placeholder="+1(xxx)xxx-xxxx">
+                </div>
+              </div>
+            </div>
+            <div class="form-book__item__4">
+              <div>
+                <a class="btn-book-now" href="#">Book Now</a>
+              </div>
+            </div>
+          </form>     
+        </div>
+      </div>
+
+      
+    </main>
+    
+    <script src="js/index.js"></script>
+  </body>
+</html>

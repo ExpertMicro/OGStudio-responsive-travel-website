@@ -1,0 +1,39 @@
+.c-main__icons {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 60px;
+}
+
+.c-main__icon__plane {
+  text-align: start;
+}
+
+.c-main__icon__guidelines {
+  text-align: start;
+  margin-left: 80px;
+  margin-right: 20px;
+}
+
+.icon-plane {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: #fad3d9;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  place-items: center;
+}
+
+.main-icon__tilte {
+  @include inter(16);
+  margin-top: 15px;
+  margin-bottom: 10px;
+  max-width: 240px
+}
+
+.main-icon__paragraph {
+  @include nunito(16, normal);
+}
