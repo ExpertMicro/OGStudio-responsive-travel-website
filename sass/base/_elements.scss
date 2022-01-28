@@ -41,13 +41,13 @@ embed[width][height],
 video[width][height] {
   height: auto;
 }
-
+/*
 img[src$=".svg"] {
   height: auto;
   max-width: none;
   width: 100%;
 }
-
+*/
 label {
   display: block;
   @include nunito(16, normal);

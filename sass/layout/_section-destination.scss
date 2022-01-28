@@ -1,0 +1,29 @@
+.l-section-destination {
+  background: $bg-color-section-destination;
+}
+
+.section-destination__title {
+  @include inter(48);
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.l-destination {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-destination {
+  padding-right: 60px;
+}
+
+.explore__title {
+  @include inter(24);
+  margin-bottom: 20px;
+}
+
+.explore__paragraph {
+  @include nunito(16, 1.5em);
+  max-width: 615px;
+}

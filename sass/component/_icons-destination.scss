@@ -1,0 +1,42 @@
+.c-destination-countries {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.paris, .egipto, .india, .brazil, .italy {
+  text-align: center;
+} 
+
+.icon-paris, .icon-egipto, .icon-india, .icon-brazil, .icon-italy {
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.icon-paris {
+  background: $pink;
+}
+.icon-egipto {
+  background: $brown;
+}
+.icon-india {
+  background: $green;
+}
+.icon-brazil {
+  background: $blue;
+}
+.icon-italy {
+  background: $orange;
+}
+
+.icon-country-name {
+  display: block;
+  margin-top: 10px;
+  @include nunito(14, normal);
+}
+
+.country + .country {
+  margin-left: 20px;
+}
