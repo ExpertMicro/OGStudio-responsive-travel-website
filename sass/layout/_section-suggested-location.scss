@@ -1,0 +1,108 @@
+.bg-section-suggested-location {
+  background: $bg-color-suggested-location;
+  padding-top: 200px;
+  padding-bottom: 160px;
+}
+
+.section-location__title {
+  @include inter(24);
+}
+
+.section-location__paragraph {
+  @include nunito(16, 1.5em);
+  max-width: 700px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.photo-destination-japan {
+  background: url(/img/japan.jpg) no-repeat center;
+  width: 410px;
+  height: 510px;
+  position: relative;
+}
+.photo-destination-brazil {
+  background: url(/img/beach-brazil.jpg) no-repeat center;
+  width: 410px;
+  height: 510px;
+  position: relative;
+}
+.photo-destination-new-york {
+  background: url(/img/new-york.jpg) no-repeat center;
+  width: 410px;
+  height: 510px;
+  position: relative;
+}
+
+.bg-blur-destination {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 350px;
+  height: 83px;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11px);
+}
+
+.destination {
+  display: block;
+  @include inter(16);
+  color: white;
+  margin-bottom: 10px;
+}
+
+.country {
+  display: block;
+  @include nunito(16, normal);
+  color: white;
+}
+
+.rate-stars {
+  display: flex;
+}
+
+.star + .star {
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+.price {
+  display: block;
+  @include nunito(16, normal);
+  color: white;
+  margin-top: 10px;
+}
+
+/* Glide Arrows Custom */
+.glide__arrows .glide__arrow--right {
+  background: $dark-blue;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-color: $white;
+}
+
+.glide__arrows .glide__arrow--left {
+  background: $dark-blue;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 18px;
+  padding-left: 18px;
+  border-color: $white;
+}
+
+.glide__arrows .glide__arrow--right:hover {
+  border-color: $color-description;
+}
+
+.glide__arrows .glide__arrow--left:hover {
+  border-color: $color-description;
+}

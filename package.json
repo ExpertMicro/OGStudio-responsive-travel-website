@@ -26,5 +26,8 @@
   },
   "browserslist": [
     "last 2 Chrome versions"
-  ]
+  ],
+  "dependencies": {
+    "@glidejs/glide": "^3.5.2"
+  }
 }

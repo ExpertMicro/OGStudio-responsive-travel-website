@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/sass/style.scss">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
   </head>
 
   <body>
@@ -125,7 +127,7 @@
       
     </main>
 
-    <section class="l-container bg-advantages__section">
+    <section class="l-container bg-section-advantages">
       <h3 class="advantages__title">Enjoy the Advantages</h3>
       <div class="c-advantages">
         <div class="c-advantages-descount">
@@ -229,6 +231,92 @@
         </div>
       </div>
     </section>
-    <script src="js/index.js"></script>
+
+    <section class="bg-section-suggested-location">
+      <div class="l-container">
+        <h3 class="section-location__title">Suggested Location</h3>
+        <p class="section-location__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+        <div class="glide">
+          <div data-glide-el="track" class="glide__track">
+            <div class="glide__slides">
+              <div class="glide__slide">
+                <div class="photo-destination-japan">
+                  <div class="bg-blur-destination">
+                    <div class="destination-country">
+                      <span class="destination">Mount Fuji</span>
+                      <span class="country">Sumatra, Japan</span>
+                    </div>
+                    <div class="price-rate">
+                      <span class="rate-stars">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                      </span>
+                      <span class="price">$1500</span>
+                    </div>
+                  </div>
+                </div>
+          
+              </div>
+              <div class="glide__slide">
+                <div class="photo-destination-brazil">
+                  <div class="bg-blur-destination">
+                    <div class="destination-country">
+                      <span class="destination">Ipanema Beach</span>
+                      <span class="country">Rio de Janeiro, Brazil</span>
+                    </div>
+                    <div class="price-rate">
+                      <span class="rate-stars">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                      </span>
+                      <span class="price">$1500</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="glide__slide">
+                <div class="photo-destination-new-york">
+                  <div class="bg-blur-destination">
+                    <div class="destination-country">
+                      <span class="destination">Manhattan</span>
+                      <span class="country">US, New York</span>
+                    </div>
+                    <div class="price-rate">
+                      <span class="rate-stars">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                        <img class="star" src="img/star-rate.svg" alt="Star rate">
+                      </span>
+                      <span class="price">$1500</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <img src="img/arrow-left-white.svg" alt="Arrow left">
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <img src="img/arrow-right-svg.svg" alt="arrow right">
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+  <script type="module" src="/js/glide.js"></script>
   </body>
 </html>
