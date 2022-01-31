@@ -1,0 +1,47 @@
+.bg-balloon {
+  position: absolute;
+}
+
+.bg-balloon img {
+  display: block;
+  margin-top: 90px;
+}
+
+.c-form {
+  display: flex;
+  justify-content: center;
+}
+
+.c-form-subscribe-blog {
+  display: block;
+  position: relative;
+  margin-top: 60px;
+}
+
+.section-subscribe-blog__title {
+  @include inter(36);
+  text-align: center;
+  padding-top: 120px;
+}
+
+.input-icon {
+  display: block;
+  margin-top: 29px;
+  margin-left: 20px;
+  position: absolute;
+  background: url(/img/icon-email.svg) no-repeat;
+  width: 31px;
+  height: 21px;
+}
+
+.c-form__input {
+  @include nunito(16, 1.5em);
+  width: 630px;
+  color: white;
+}
+
+.c-partners {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
