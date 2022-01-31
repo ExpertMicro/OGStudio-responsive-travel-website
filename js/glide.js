@@ -13,4 +13,4 @@ const config = {
 }
 
 new Glide(".glide", config).mount();
-//new Glide(".glide-carousel-testimonials", config).mount();
+new Glide(".glide-carousel-testimonials", config).mount();
