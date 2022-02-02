@@ -42,6 +42,37 @@
       </div>
     </header>
 
+    <div class="l-header-mobile">
+      <div class="backdrop backdrop--hidden"></div>
+      <div class="l-container-mobile">
+        <a href="#">
+          <img src="img/logo-travel.svg" alt="Logo">
+        </a>
+        <nav class="navigation">
+          <button class="btn-mobile btn--menu" aria-expanded="false" aria-label="menu toggle">
+            <img src="img/icon-hamburger.svg" alt="Icon hamburger" class="menu-icon">
+          </button>
+          <ul class="navigation__list navigation__list--hidden">
+            <li class="navigation__list__item">
+              <a href="#">Special Deals</a>
+            </li>
+            <li class="navigation__list__item">
+              <a href="#">Discover</a>
+            </li>
+            <li class="navigation__list__item">
+              <a href="#">Community</a>
+            </li>
+            <li class="navigation__list__item">
+              <a href="#">About Us</a>
+            </li>
+            <li class="navigation__list__item">
+              <a class="btn-register" href="#">Register</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
     <main class="l-main">
       <div class="l-container">
         <div class="l-main-content">
@@ -486,6 +517,7 @@
     </footer>
 
     <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
-  <script type="module" src="/js/glide.js"></script>
+    <script src="/js/menu-mobile.js"></script>
+    <script type="module" src="/js/glide.js"></script>
   </body>
 </html>

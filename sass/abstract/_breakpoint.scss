@@ -1,5 +1,5 @@
 // @see https://desenvolvimentoparaweb.com/css/css-breakpoints-maneira-correta/
-
+/*
 @mixin breakpoint($point) {
   @if $point == small-only {
     @media (max-width: 37.4375em) { // 599px
@@ -41,5 +41,26 @@
     @media (min-width: ($point / 16) + 'em') {
       @content;
     }
+  }
+}
+*/
+
+@media screen and (max-width: 800px) {
+  .l-header {
+    display: none;
+  }
+  .l-header-mobile {
+    display: block;
+  }
+
+
+  .navigation__list__item .btn-register {
+    margin-top: 30px;
+    background: $color-button-register;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 28px;
+    padding-left: 28px;
+    border-radius: 4px;
   }
 }

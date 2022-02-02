@@ -5,3 +5,9 @@
 .l-container {
   @include container;
 }
+
+.l-container-mobile {
+  @include container-flex;
+  align-items: center;
+  justify-content: space-between;
+}

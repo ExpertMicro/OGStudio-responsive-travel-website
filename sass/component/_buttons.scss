@@ -9,6 +9,13 @@
   cursor: pointer;
 }
 
+.btn-mobile {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 10px;
+}
+
 .btn-book-now {
   @include nunito(16, normal);
   background: $color-button-book-now;
