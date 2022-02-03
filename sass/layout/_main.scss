@@ -9,14 +9,14 @@
 
 .main__title {
   @include inter(64);
-  padding-top: 100px;
-  padding-left: 80px;
+  padding-top: 60px;
+  padding-left: 40px;
   padding-right: 30px;
 }
 
 .main__paragraph {
   @include nunito(16, normal);
-  padding-left: 80px;
+  padding-left: 40px;
   margin-top: 20px;
   margin-right: 20px;
 }
