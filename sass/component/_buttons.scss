@@ -17,6 +17,7 @@
 }
 
 .btn-book-now {
+  display: block;
   @include nunito(16, normal);
   background: $color-button-book-now;
   padding-top: 10px;
