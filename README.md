@@ -1,6 +1,6 @@
 # Responsive Travel Website 🌊
 
-### [See how it turned out](https://pt.parceljs.org/)
+### [See how it turned out](http://ogstudio-travel.ozielgf.com.br/)
 
 ### Responsive Travel Website 🌊
 
